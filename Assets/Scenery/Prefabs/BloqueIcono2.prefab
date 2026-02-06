@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5698181042234646918}
   - component: {fileID: 4268305842997575491}
   - component: {fileID: 6046238761326021428}
-  - component: {fileID: -8336026753017655681}
   - component: {fileID: -958289721602731498}
   m_Layer: 0
   m_Name: BloqueIcono2
@@ -91,6 +90,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &6046238761326021428
 BoxCollider:
@@ -113,20 +113,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-8336026753017655681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7143666873876840651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b35dbf4d7ca10cf4eb493713b15d4088, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemigoBehavior
-  agent: {fileID: 0}
-  target: {fileID: 0}
 --- !u!195 &-958289721602731498
 NavMeshAgent:
   m_ObjectHideFlags: 0
